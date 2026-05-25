@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<title>Global Public School</title>
+
+<meta name="description" content="Global Public School Nayakabandha official website with online result management system." />
+<meta name="keywords" content="Global Public School, Odisha School, Student Result" />
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+
+<body>
+
+<!-- Loader -->
+<div id="loader">
+    <div class="spinner"></div>
+</div>
+
+<!-- Navbar -->
+<header>
+<nav class="navbar">
+<div class="logo">
+GLOBAL PUBLIC SCHOOL
+</div>
+
+<ul class="nav-links">
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#result">Results</a></li>
+<li><a href="#gallery">Gallery</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+<button id="darkModeBtn">🌙</button>
+</nav>
+</header>
+
+<!-- Hero -->
+<section class="hero" id="home">
+
+<div class="hero-content">
+
+<div class="hero-text">
+<h1>Welcome To Global Public School</h1>
+
+<p>
+Nurturing Future Leaders with Excellence in Education.
+Nursery to Class 8 | CBSE Pattern
+</p>
+
+<div class="hero-buttons">
+<a href="#result" class="btn">Check Result</a>
+<a href="#contact" class="btn btn2">Contact Now</a>
+</div>
+</div>
+
+<div class="hero-image">
+<img src="assets/principal.jpg" alt="Principal">
+<h3>Principal - Sushree Pooja Saw</h3>
+</div>
+
+</div>
+</section>
+
+<!-- About -->
+<section class="about" id="about">
+
+<h2>About School</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Our Mission</h3>
+<p>
+To provide quality education and build strong moral values.
+</p>
+</div>
+
+<div class="card">
+<h3>Our Vision</h3>
+<p>
+To create future-ready students with innovation and discipline.
+</p>
+</div>
+
+<div class="card">
+<h3>Achievements</h3>
+<p>
+Top performing students and excellent academic environment.
+</p>
+</div>
+
+</div>
+
+<h2>Management</h2>
+
+<div class="management">
+
+<div class="card">
+<h3>Secretary</h3>
+<p>
+Guru Sandipani Sagar Sangam Nayak
+</p>
+</div>
+
+<div class="card">
+<h3>President</h3>
+<p>
+Bikash Rout
+</p>
+</div>
+
+<div class="card">
+<h3>Principal</h3>
+<p>
+Sushree Pooja Saw
+</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- RESULT SYSTEM -->
+<section class="result-section" id="result">
+
+<h2>Student Result System</h2>
+
+<div class="result-search">
+
+<input type="text" id="roll" placeholder="Enter Roll Number">
+
+<input type="text" id="admit" placeholder="Enter Admit Card Number">
+
+<button onclick="searchResult()">Search Result</button>
+
+</div>
+
+<div id="resultBox"></div>
+
+</section>
+
+<!-- Gallery -->
+<section class="gallery" id="gallery">
+
+<h2>School Gallery</h2>
+
+<div class="gallery-grid">
+
+<img src="assets/gallery1.jpg" alt="">
+<img src="assets/gallery2.jpg" alt="">
+<img src="assets/gallery1.jpg" alt="">
+<img src="assets/gallery2.jpg" alt="">
+
+</div>
+
+</section>
+
+<!-- Contact -->
+<section class="contact" id="contact">
+
+<h2>Contact Us</h2>
+
+<p>📞 9439900912</p>
+<p>📧 globalpublicschool2025@gmail.com</p>
+<p>📍 Nayakabandha, Bidubazar, Bahanaga</p>
+
+<iframe
+src="https://maps.google.com/maps?q=Bahanaga&t=&z=13&ie=UTF8&iwloc=&output=embed">
+</iframe>
+
+</section>
+
+<!-- Footer -->
+<footer>
+<p>© 2026 Global Public School. All Rights Reserved.</p>
+</footer>
+
+<!-- WhatsApp -->
+<a href="https://wa.me/919439900912" class="whatsapp-btn">
+💬
+</a>
+
+<!-- Scroll Top -->
+<button id="topBtn">⬆</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>

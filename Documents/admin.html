@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Admin Dashboard</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<section class="about">
+
+<h1>Admin Dashboard</h1>
+
+<div class="card">
+
+<input type="text" id="name" placeholder="Student Name">
+<input type="text" id="class" placeholder="Class">
+<input type="text" id="roll" placeholder="Roll">
+<input type="text" id="admit" placeholder="Admit Card">
+
+<input type="number" id="eng" placeholder="English">
+<input type="number" id="math" placeholder="Math">
+<input type="number" id="science" placeholder="Science">
+<input type="number" id="odia" placeholder="Odia">
+<input type="number" id="sst" placeholder="SST">
+
+<button onclick="addStudent()" class="btn">
+Add Student
+</button>
+
+</div>
+
+<div id="studentTable"></div>
+
+</section>
+
+<script src="admin.js"></script>
+
+</body>
+</html>
